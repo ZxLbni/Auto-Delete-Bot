@@ -2,13 +2,13 @@ import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
 
-API_ID = int(environ.get("API_ID"))
-API_HASH = environ.get("API_HASH")
-BOT_TOKEN = environ.get("BOT_TOKEN")
-SESSION = environ.get("SESSION")
-TIME = int(environ.get("TIME"))
+API_ID = int(environ.get("26555614"))
+API_HASH = environ.get("93bf5cde23435bb236066dcd7358ae6a")
+BOT_TOKEN = environ.get("7319257222:AAHXAfueOxkgN_Ks-G2O4mPCmrUFCijvhGo")
+SESSION = environ.get("")
+TIME = int(environ.get("300"))
 GROUPS = []
-for grp in environ.get("GROUPS").split():
+for grp in environ.get("-1002180300815").split():
     GROUPS.append(int(grp))
 ADMINS = []
 for usr in environ.get("ADMINS").split():
